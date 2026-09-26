@@ -1,0 +1,25 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": [
+    {
+      "name": "2006-abatement",
+      "prompt": "Use case: stylized-concept. Asset type: landscape 16:9 website milestone card. Style: polished premium editorial 3D concept illustration, subtle miniature architectural realism, clean sculptural geometry and soft surface texture. Cohesive palette of deep Intel blue, cyan, white and fresh green. Soft daylight, elegant shadows, refined optimistic atmosphere. Wide landscape framing, central subject composed to remain visible when cropped to 16:9. This is a conceptual illustration, not a documentary photograph. No text, numbers, labels, lettering, logos or watermarks.\nPrimary subject: semiconductor manufacturing factory emissions abatement equipment: large clean white industrial modules, blue pipes, cylindrical scrubber towers and ducts beside a modern chip fabrication facility, small landscaping accents. Strong visual emphasis on emissions treatment infrastructure, no smoke."
+    },
+    {
+      "name": "2020-rise",
+      "prompt": "Use case: stylized-concept. Asset type: landscape 16:9 website milestone card. Style: polished premium editorial 3D concept illustration, subtle miniature architectural realism, clean sculptural geometry and soft surface texture. Cohesive palette of deep Intel blue, cyan, white and fresh green. Soft daylight, elegant shadows, refined optimistic atmosphere. Wide landscape framing, central subject composed to remain visible when cropped to 16:9. This is a conceptual illustration, not a documentary photograph. No text, numbers, labels, lettering, logos or watermarks.\nPrimary subject: sustainability strategy represented as a green technology campus, several white and blue semiconductor research and fabrication buildings with planted roofs, surrounded by trees, visible cyan water recycling channels and rounded treatment basins, circular water infrastructure forming an integrated landscape."
+    },
+    {
+      "name": "2022-net-zero",
+      "prompt": "Use case: stylized-concept. Asset type: landscape 16:9 website milestone card. Style: polished premium editorial 3D concept illustration, subtle miniature architectural realism, clean sculptural geometry and soft surface texture. Cohesive palette of deep Intel blue, cyan, white and fresh green. Soft daylight, elegant shadows, refined optimistic atmosphere. Wide landscape framing, central subject composed to remain visible when cropped to 16:9. This is a conceptual illustration, not a documentary photograph. No text, numbers, labels, lettering, logos or watermarks.\nPrimary subject: a clean modern white and blue semiconductor fabrication factory beside several elegant wind turbines in green landscaped grounds. Confident long-term climate commitment expressed through clean energy and advanced manufacturing architecture."
+    },
+    {
+      "name": "2023-renewables",
+      "prompt": "Use case: stylized-concept. Asset type: landscape 16:9 website milestone card. Style: polished premium editorial 3D concept illustration, subtle miniature architectural realism, clean sculptural geometry and soft surface texture. Cohesive palette of deep Intel blue, cyan, white and fresh green. Soft daylight, elegant shadows, refined optimistic atmosphere. Wide landscape framing, central subject composed to remain visible when cropped to 16:9. This is a conceptual illustration, not a documentary photograph. No text, numbers, labels, lettering, logos or watermarks.\nPrimary subject: renewable electricity landscape with striking rows of blue solar panels across a green field and elegant white wind turbines, a subtle clean technology building in the background. Solar panels dominate foreground, broad clear pale blue sky."
+    },
+    {
+      "name": "2024-summit",
+      "prompt": "Use case: stylized-concept. Asset type: landscape 16:9 website milestone card. Style: polished premium editorial 3D concept illustration, subtle miniature architectural realism, clean sculptural geometry and soft surface texture. Cohesive palette of deep Intel blue, cyan, white and fresh green. Soft daylight, elegant shadows, refined optimistic atmosphere. Wide landscape framing, central subject composed to remain visible when cropped to 16:9. This is a conceptual illustration, not a documentary photograph. No text, numbers, labels, lettering, logos or watermarks.\nPrimary subject: five diverse professional adult colleagues in tasteful blue, white and neutral business casual attire collaborating around a large iridescent blue semiconductor wafer on a round white conference table inside a bright modern technology summit venue, greenery visible through windows. Carefully composed readable human figures with natural hands and anatomy. No screens with writing, no badges with letters."
+    }
+  ]
+}

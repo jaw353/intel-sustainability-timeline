@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#003c6a" />
+    <meta name="description" content="Check in for the Intel Sustainability Summit and see each team's attendance grow." />
+    <title>Intel Sustainability Summit | Check-In</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#check-in">Skip to attendee check-in</a>
+    <header class="hero">
+      <div class="hero-top">
+        <img class="logo" src="img/intel-logo.svg" alt="Intel" width="110" height="44" />
+        <span>INNOVATION &amp; IMPACT</span>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">A MORE SUSTAINABLE FUTURE STARTS TOGETHER</p>
+        <h1>Team Sustainability<br />Summit<span class="accent">.</span></h1>
+        <p class="intro">Welcome. Check in, join your sustainability team, and help us reach our summit attendance goal.</p>
+      </div>
+      <div class="hero-bottom"><span>CLIMATE ACTION · WATER · RENEWABLES</span><span>Every attendee moves us forward.</span></div>
+    </header>
+
+    <main>
+      <section class="attendance" aria-labelledby="attendance-title">
+        <div class="attendance-copy">
+          <p class="eyebrow">SUMMIT CHECK-IN</p>
+          <h2 id="attendance-title"><span id="attendeeCount">0</span><span class="goal"> / 50 attendees</span></h2>
+          <p id="progressText">50 attendees make our goal. You can do it!</p>
+        </div>
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress-bar" role="progressbar" aria-label="Attendance goal progress" aria-valuemin="0" aria-valuemax="50" aria-valuenow="0"></div>
+        </div>
+      </section>
+
+      <section class="main-card" aria-label="Summit attendance">
+        <div id="greeting" class="greeting" role="status" aria-live="polite" hidden></div>
+        <form class="check-in" id="checkInForm">
+          <div class="section-title">
+            <p class="eyebrow">WE'RE GLAD YOU'RE HERE</p>
+            <h2>Check in for the summit</h2>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="attendeeName">Your name</label>
+              <input type="text" id="attendeeName" name="attendeeName" placeholder="Enter your name" autocomplete="name" maxlength="60" required />
+            </div>
+            <div class="field">
+              <label for="teamSelect">Your team</label>
+              <select id="teamSelect" name="team" required>
+                <option value="" disabled selected>Select your team</option>
+                <option value="water">Team Water Wise</option>
+                <option value="zero">Team Net Zero</option>
+                <option value="power">Team Renewables</option>
+              </select>
+            </div>
+            <button type="submit" id="checkInBtn"><span aria-hidden="true">✓</span> Check in</button>
+          </div>
+        </form>
+
+        <section class="team-stats" aria-labelledby="teams-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">FRIENDLY TEAM CHALLENGE</p><h2 id="teams-title">Attendance by team</h2></div>
+            <span class="live-tag"><span aria-hidden="true"></span> Live totals</span>
+          </div>
+          <div class="teams-grid">
+            <article class="team-card water"><div class="team-icon" aria-hidden="true">≈</div><div><h3>Team Water Wise</h3><p>Water conservation</p></div><span class="team-count" id="waterCount">0</span></article>
+            <article class="team-card zero"><div class="team-icon" aria-hidden="true">↗</div><div><h3>Team Net Zero</h3><p>Reducing emissions</p></div><span class="team-count" id="zeroCount">0</span></article>
+            <article class="team-card power"><div class="team-icon" aria-hidden="true">✳</div><div><h3>Team Renewables</h3><p>Clean energy</p></div><span class="team-count" id="powerCount">0</span></article>
+          </div>
+        </section>
+
+        <section class="attendee-section" aria-labelledby="attendees-title">
+          <div class="section-heading attendee-heading"><div><p class="eyebrow">SUMMIT COMMUNITY</p><h2 id="attendees-title">Checked-in attendees</h2></div><span class="list-total" id="listTotal">0 people</span></div>
+          <p id="emptyState" class="empty-state">Your name will appear here after you check in.</p>
+          <ul id="attendeeList" class="attendee-list" aria-live="polite" aria-relevant="additions"></ul>
+        </section>
+
+        <p id="celebration" class="celebration" role="status" aria-live="polite" hidden></p>
+      </section>
+    </main>
+
+    <footer><span>Intel Sustainability Summit</span><a href="https://www.intel.com/content/www/us/en/corporate-responsibility/2030-goals.html" target="_blank" rel="noopener noreferrer">Explore Intel's sustainability goals ↗</a></footer>
+  </body>
+</html>
